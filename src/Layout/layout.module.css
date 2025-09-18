@@ -1,0 +1,8 @@
+.layOutContainer {
+    display:flex;
+    background-color: rgb(227, 169, 241);
+}
+
+.outletContainer {
+    flex:2;
+}

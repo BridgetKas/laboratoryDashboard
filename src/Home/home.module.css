@@ -1,0 +1,39 @@
+.dashboardContainer {
+    background-color: red;
+    margin: 20px 20px 20px 0;
+    padding:10px 20px;
+    width: 99%;
+    border-top-right-radius: 10px;
+    border-bottom-right-radius: 10px;
+    /* height: 100vh; */
+
+}
+.welcomeContainer {
+    display: flex;
+    align-items: center;
+    justify-content:space-between;
+}
+
+.container {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    gap: 10px;
+    background-color: yellow;
+    width: 18%;
+}
+
+.searchContainer {
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+    width: 60%;
+    background-color: blue;
+    padding: 5px 10px;
+    border-radius: 15px;
+}
+.userImage {
+    width:45px;
+    height: 45px;
+    border-radius: 50%;
+}
