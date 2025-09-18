@@ -9,27 +9,27 @@ import styles from './desktop.module.css'
 
 const navBar = [
   {
-    label:<FaHome size={30}/>,
+    label:<FaHome size={30} color='white'/>,
     id:1,
     path:'/'
   },
   {
-    label:<IoNotifications size={30} />,
+    label:<IoNotifications size={30} color='white'/>,
     id:2,
     path:'/#what-we-do'
   },
   {
-    label:<LuMessageCircle size={30}/>,
+    label:<LuMessageCircle size={30} color='white'/>,
     id:3,
     path:'/our-products'
   },
   {
-    label:<FaCalendar size={30}/>,
+    label:<FaCalendar size={30} color='white'/>,
     id:4,
     path:'/about-us'
   },
   {
-    label:<IoSettingsSharp size={30}/>,
+    label:<IoSettingsSharp size={30} color='white'/>,
     id:5,
     path:'/contact-us'
   }
@@ -51,7 +51,7 @@ function DesktopNav() {
               <li key={link.id}>
                 <NavLink 
                   to={link.path} 
-                  className={({ isActive }) => isActive ? "font-extrabold underline" : ""}
+                  className={({ isActive }) => isActive ? "activeIcon" : " icon"}
                 >
                   {link.label}
                 </NavLink>

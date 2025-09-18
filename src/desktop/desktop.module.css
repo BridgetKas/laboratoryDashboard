@@ -26,3 +26,7 @@
     gap: 45px;
 }
 
+.activeIcon {
+    color:beige;
+    background-color: red;
+}
