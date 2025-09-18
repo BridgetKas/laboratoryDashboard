@@ -1,5 +1,5 @@
 
-import { NavLink , Link } from "react-router-dom"
+import { NavLink  } from "react-router-dom"
 import { FaHome } from "react-icons/fa";
 import { IoNotifications } from "react-icons/io5";
 import { LuMessageCircle } from "react-icons/lu";
@@ -16,7 +16,7 @@ const navBar = [
   {
     label:<IoNotifications size={30} color='white'/>,
     id:2,
-    path:'/#what-we-do'
+    path:'/what-we-do'
   },
   {
     label:<LuMessageCircle size={30} color='white'/>,
@@ -47,11 +47,9 @@ function DesktopNav() {
         <ul className={styles.linkContainer}>
           {
             navBar.map((link)=> (
-              (link.id === 2) ? <li key={link.id}><Link to={link.path}> {link.label}</Link></li> :
               <li key={link.id}>
                 <NavLink 
                   to={link.path} 
-                  className={({ isActive }) => isActive ? "activeIcon" : " icon"}
                 >
                   {link.label}
                 </NavLink>
