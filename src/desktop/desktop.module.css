@@ -14,8 +14,9 @@
 
 .company {
     text-align: center;
-    background-color: blueviolet;
     padding-top: 40px;
+    color:rgb(241, 223, 245);
+    font-weight:bold;
 }
 
 

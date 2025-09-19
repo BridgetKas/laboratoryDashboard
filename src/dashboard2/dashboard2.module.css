@@ -46,18 +46,174 @@
     display: flex;
     align-items: center;
     justify-content: space-between;
-    margin-top: 20px;
+    margin: 5px 0;
     color:#1e2939;
 }
 
 .overView {
     font-weight:bold;
+    font-size:20px;
 }
 
 .cardContainer {
     display: flex;
     align-items: center;
     justify-content: space-between;
-    width:75%;
-    background-color: red;
+    width:98%;
 }
+
+.latestAppointment {
+    display:flex;
+    align-items: center;
+    justify-content: space-between;
+    padding: 8px;
+    border-radius: 5px;
+    background-color:#fff;
+    margin: 10px 0;
+    color:#1e2939;
+}
+
+
+
+.appointmentContainer {
+    width: 68%;
+
+}
+.titleAppointment{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    /* padding:6px; */
+    color:#131e2e;
+}
+
+.diseaseContainer {
+    display: flex;
+    align-items:flex-start;
+    justify-content: space-between;
+    background-color: yellow;
+}
+
+
+.tableContainer {
+    overflow-x: auto;
+    background: #fff;
+    border-radius: 12px;
+    box-shadow: 0 2px 6px rgba(0, 0, 0, 0.1);
+    padding: 1rem;
+    width:66%;
+  }
+  
+  .appointmentTable {
+    width: 100%;
+    border-collapse: collapse;
+    font-size: 14px;
+  }
+  
+  .appointmentTable th,
+  .appointment-table td {
+    text-align: left;
+    padding: 12px;
+  }
+  
+  .appointmentTable thead {
+    background-color: #f5f6fa;
+    color: #555;
+    font-size: 13px;
+    text-transform: uppercase;
+  }
+  
+  .appointmentTable tbody tr {
+    border-top: 1px solid #eee;
+  }
+  
+  .appointmentTable tbody tr:hover {
+    background-color: #f9f9f9;
+  }
+  
+  .badge {
+    padding: 4px 8px;
+    border-radius: 12px;
+    font-size: 12px;
+    font-weight: bold;
+    display: inline-block;
+  }
+  
+  .actionBtn {
+    padding: 6px 12px;
+    background: none;
+    border: none;
+    color: #007bff;
+    cursor: pointer;
+    font-size: 14px;
+  }
+  
+  .actionBtn:hover {
+    text-decoration: underline;
+  }
+
+
+  .fileCard {
+    background: #fff;
+    border-radius: 12px;
+    padding: 1rem;
+    box-shadow: 0 2px 6px rgba(0, 0, 0, 0.1);
+    width: 30%;
+    /* max-width: 300px; */
+  }
+  
+  .fileTitle {
+    font-size: 16px;
+    font-weight: bold;
+    margin-bottom: 1rem;
+    color: #333;
+  }
+  
+  .fileList {
+    list-style: none;
+    padding: 0;
+    margin: 0;
+  }
+  
+  .fileItem {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding: 8px 0;
+    border-bottom: 1px solid #f0f0f0;
+  }
+  
+  .fileItem:last-child {
+    border-bottom: none;
+  }
+  
+  .fileIcon {
+    font-size: 18px;
+    margin-right: 8px;
+  }
+  
+  .fileName {
+    flex: 1;
+    color: #555;
+    font-size: 14px;
+  }
+  
+  .file-icon.pdf {
+    color: #e74c3c; /* red for pdf */
+  }
+  
+  .file-icon.doc {
+    color: #3498db; /* blue for doc */
+  }
+  
+  .fileAction {
+    background: none;
+    border: none;
+    color: #007bff;
+    font-size: 14px;
+    cursor: pointer;
+  }
+  
+  .fileAction:hover {
+    text-decoration: underline;
+  }

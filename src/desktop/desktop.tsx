@@ -39,11 +39,9 @@ function DesktopNav() {
   
   return (
     <div className={styles.mainContainer}>
-      {/* Logo and company name */}
         <div className={styles.company}>
-          <p className="text-center">GASOBU</p>
+          <p >GASOBU</p>
         </div>
-        {/* NavLinks */}
         <ul className={styles.linkContainer}>
           {
             navBar.map((link)=> (
